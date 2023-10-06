@@ -35,3 +35,5 @@ def logar_usuario(request):
     form_login = AuthenticationForm()
     return render(request, 'usuarios/cadastro.html', {'form_login': form_login})
 
+def reset(request):
+    return render(request, 'usuarios/reset.html')
