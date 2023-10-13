@@ -12,6 +12,7 @@
       <!-- fazer página para esqueceu a senha-->
       <form method="post">
         {% csrf_token %}
+        {{ form.as_p }}
   <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
   <p class="text-white-50 mb-5">Entre com seu login e senha!</p>
 
